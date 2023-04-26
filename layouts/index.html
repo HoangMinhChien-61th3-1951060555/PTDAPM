@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trang chủ</title>
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<main>	
+		
+		<header>
+			<img src="../images/logomu.jpg" width="100%">
+			<div class="header-top">
+				<div class="logo">
+					<img src="../images/logo.png">
+				</div>
+				<div class="menu">
+					<ul>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="detail.html">Products</a>
+						</li>
+						<li>
+							<a href="category.html">Abouts</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#">News</a>
+						</li>
+						<li id="cart_pc">
+							<a href="category.html"><i class="fas fa-shopping-cart"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="cart_mbile">
+					
+					<button class="open_menu_sidebar"><i class="fas fa-bars"></i></button>
+				</div>
+			</div>
+			<div class="desc-banner">
+				<div class="content-desc">
+					<div class="title" style="margin-top:400px">Our clothing , your comfort</div>
+					
+				</div>
+			</div>
+		</header>
+		<div id='ads-trai'>
+			<div style='margin:0 0 5px 0; padding:0;width:160px;position:fixed; right:50%; top:0; margin-right:850px;z-index:1'> 
+			<span style="color: #ff0000;" data-mce-style="color: #ff0000;">
+		 
+				 <a href='https://store.manutd.com/en/'><img src='http://farm6.staticflickr.com/5759/31081343902_b95bee4751_o.png'/></a>
+			</span>
+			</div>
+		 </div>
+		 		 
+		 <div id='ads-phai'> 
+			<div style='margin:0 0 5px 0; padding:0;width:160px;position:fixed; left:50%; top:0; margin-left:810px;'>
+			<span style="color: #ff0000;" data-mce-style="color: #ff0000;">
+				  <a href='http://www.phim14.me/'><img src='http://farm6.staticflickr.com/5759/31081343902_b95bee4751_o.png'/>     </a>
+			</span>
+			</div>
+		 </div>
+		<div class="content">
+			<div class="filter">
+				<div class="filter-left">
+					<ul>
+						<li>
+							<input type="checkbox" name="category" id="men">
+							<label for="men">Men</label>
+						</li>
+						<li>
+							<input type="checkbox" name="category" id="women">
+							<label for="women">Women</label>
+						</li>
+						<li>
+							<input type="checkbox" name="category" id="children">
+							<label for="children">Children</label>
+						</li>
+					</ul>
+				</div>
+				<div class="filter-right">
+					<a href="" id="see-all-product">See all product</a>
+				</div>
+			</div>
+			<div class="product">
+				<div class="row">
+					<div class="category-name">Men</div>
+					<div class="pagination">
+						<div class="page">
+							1/5
+						</div>
+						<div class="next-preview">
+							<i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i>
+						</div>
+					</div>
+					<div class="list">
+						<div class="item">
+							<img src="../images/sp1.png">
+							<h2 class="product-name">T-Shirt</h2>
+							<div class="price">5,00€</div>
+						</div>
+						<div class="item">
+							<img src="../images/sp7.png">
+							<h2 class="product-name">MU Cup Third Shirt</h2>
+							<div class="price">5,00€</div>
+						</div>
+						<div class="item">
+							<img src="../images/sp3.png">
+							<h2 class="product-name">Manchester United Originals 1990 Home Shirt</h2>
+							<div class="price">5,00€</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="category-name lv2">Women</div>
+					<div class="pagination lv2">
+						<div class="page">
+							1/5
+						</div>
+						<div class="next-preview">
+							<i class="fas fa-chevron-left"></i> <i class="fas fa-chevron-right"></i>
+						</div>
+					</div>
+					<div class="list">
+						<div class="item">
+							<img src="../images/sp4.png">
+							<h2 class="product-name">Manchester United Away Shirt 2021-22 OldTrafford</h2>
+							<div class="price">5,00€</div>
+						</div>
+						<div class="item">
+							<img src="../images/sp5.png">
+							<h2 class="product-name">Manchester United adidas Cristiano Ronaldo T-Shirt - Black</h2>
+							<div class="price">5,00€</div>
+						</div>
+						<div class="item">
+							<img src="../images/sp6.png">
+							<h2 class="product-name">Manchester United Away Shirt</h2>
+							<div class="price">5,00€</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<section id="contact">
+				<div class="container-contact">
+				<h1 class="section-header">Contact</h1>
+				
+				<div class="contact-wrapper">
+				
+				<!-- Left contact page --> 
+				  
+				  <form id="contact-form" class="form-horizontal" role="form">
+					 
+					<div class="form-group">
+					  <div class="col-sm-6" >
+						<input type="text" class="form-control" size="50" id="name" placeholder="NAME" name="name" value="" required>
+					  </div>
+					</div>
+			  
+					<div class="form-group">
+					  <div class="col-sm-6">
+						<input type="email" class="form-control" size="50" id="email" placeholder="EMAIL" name="email" value="" required>
+					  </div>
+					</div>
+			  
+					<textarea class="form-control" rows="5" cols="50" placeholder="MESSAGE" name="message" required></textarea>
+					<hr>
+					<button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" s>
+					  <div class="alt-send-button">
+						<i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+					  </div>
+					
+					</button>
+					
+				  </form>
+				  
+				<!-- Left contact page --> 
+				  
+					<div class="direct-contact-container">
+			  
+					  <ul class="contact-list">
+						<li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+						
+						<li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="03880833**" title="Give me a call">03880833**</a></span></i></li>
+						
+						<li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hoangminhchienlep@gmail.com</a></span></i></li>
+						
+					  </ul>
+			  
+					  <hr>
+					  <ul class="social-media-list">
+						<li><a href="#" target="_blank" class="contact-icon">
+						  <i class="fa fa-github" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#" target="_blank" class="contact-icon">
+						  <i class="fa fa-codepen" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#" target="_blank" class="contact-icon">
+						  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li><a href="#" target="_blank" class="contact-icon">
+						  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>       
+					  </ul>
+					  <hr>
+			  
+					  <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+			  
+					</div>
+				  
+				</div>
+				</div>
+			  </section>  
+		</footer>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

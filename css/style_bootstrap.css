@@ -1,0 +1,30 @@
+.container{
+	max-width: 1500px;
+}
+#breadcrumb_mysite .breadcrumb .breadcrumb-item+.breadcrumb-item:before{
+	content: ">>";
+}
+
+#breadcrumb_mysite .breadcrumb{
+	background-color: unset;
+}
+
+#title_menu{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ccc !important;
+	margin-bottom: 0;
+}
+.row .col-lg-3 .list-group .list-group-item ul li:hover{
+	background: red;
+}
+
+.product-name{
+	font-size: 22px;
+}
+
+.btn-add-cart{
+	font-size: 20px;
+	padding: 10px 25px;
+}
